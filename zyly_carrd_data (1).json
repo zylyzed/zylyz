@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Zyly – Profile Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: #fff;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+      width: 350px;
+      text-align: center;
+    }
+    .container img {
+      width: 100%;
+      display: block;
+    }
+    .container h1 {
+      margin: 20px 0 10px;
+      font-size: 1.8em;
+      color: #333;
+    }
+    .links a {
+      display: block;
+      margin: 10px 20px;
+      padding: 12px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+      border-radius: 6px;
+    }
+    .insta { background: #E4405F; }
+    .tiktok { background: #010101; }
+    .spotify { background: #1DB954; }
+    .links a:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="IMAGINE_URL" alt="Zyly">
+  <h1>Zyly</h1>
+  <div class="links">
+    <a href="https://www.instagram.com/almazyl_/" target="_blank" class="insta">📸 Instagram</a>
+    <a href="https://www.tiktok.com/@almzyl" target="_blank" class="tiktok">🎵 TikTok</a>
+    <a href="https://open.spotify.com/user/31i22iac7tfwmdcxj5l4g65owlhy?si=804b586986384e3d" target="_blank" class="spotify">🎧 Spotify</a>
+  </div>
+</div>
+
+</body>
+</html>
